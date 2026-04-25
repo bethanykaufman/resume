@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bethany Kaufman | Director of Digital Marketing</title>
+<meta name="description" content="Bethany Kaufman is a senior digital marketing leader based in Denver, CO with 13+ years driving growth for national consumer brands across paid media, SEO, CRM, and emerging AI search channels.">
+<meta name="keywords" content="Bethany Kaufman, Director Digital Marketing, Denver, paid media strategy, SEO, GEO, AIO, generative engine optimization, B2C marketing, CRM lifecycle, acquisition marketing, FullSpeed Automotive">
+<meta property="og:title" content="Bethany Kaufman | Director of Digital Marketing">
+<meta property="og:description" content="13+ years building and scaling digital marketing programs for national consumer brands.">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --navy: #0f1f38;
+    --navy-mid: #1a3057;
+    --slate: #3d5271;
+    --accent: #c8a96e;
+    --accent-light: #e8d5aa;
+    --offwhite: #f7f5f1;
+    --white: #ffffff;
+    --text-primary: #0f1f38;
+    --text-secondary: #4a5568;
+    --text-muted: #718096;
+    --border: #e2ddd6;
+    --serif: 'DM Serif Display', Georgia, serif;
+    --sans: 'DM Sans', system-ui, sans-serif;
+  }
+
+  html { scroll-behavior: smooth; }
+
+  body {
+    font-family: var(--sans);
+    color: var(--text-primary);
+    background: var(--white);
+    font-size: 16px;
+    line-height: 1.7;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  /* NAV */
+  nav {
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    z-index: 100;
+    background: rgba(255,255,255,0.96);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--border);
+    padding: 0 2rem;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .nav-name {
+    font-family: var(--serif);
+    font-size: 1.1rem;
+    color: var(--navy);
+    letter-spacing: 0.01em;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-links a {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--text-secondary);
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+
+  .nav-links a:hover { color: var(--navy); }
+
+  /* HERO */
+  .hero {
+    padding: 140px 2rem 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: center;
+  }
+
+  .hero-eyebrow {
+    font-size: 0.75rem;
+    font-weight: 500;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1.25rem;
+  }
+
+  .hero h1 {
+    font-family: var(--serif);
+    font-size: clamp(2.4rem, 4vw, 3.4rem);
+    line-height: 1.15;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+  }
+
+  .hero h1 em {
+    font-style: italic;
+    color: var(--slate);
+  }
+
+  .hero-bio {
+    font-size: 1.05rem;
+    color: var(--text-secondary);
+    line-height: 1.75;
+    margin-bottom: 2rem;
+  }
+
+  .hero-cta {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background: var(--navy);
+    color: var(--white);
+    padding: 0.75rem 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border: 1px solid var(--navy);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .btn-primary:hover {
+    background: var(--navy-mid);
+  }
+
+  .btn-secondary {
+    display: inline-block;
+    background: transparent;
+    color: var(--navy);
+    padding: 0.75rem 1.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    border: 1px solid var(--navy);
+    transition: background 0.2s, color 0.2s;
+  }
+
+  .btn-secondary:hover {
+    background: var(--offwhite);
+  }
+
+  .hero-stats {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+  }
+
+  .stat-card {
+    background: var(--offwhite);
+    border: 1px solid var(--border);
+    padding: 1.5rem;
+  }
+
+  .stat-number {
+    font-family: var(--serif);
+    font-size: 2.2rem;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 0.4rem;
+  }
+
+  .stat-label {
+    font-size: 0.8rem;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+  }
+
+  /* SECTION BASE */
+  section {
+    padding: 90px 2rem;
+  }
+
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .section-label {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.75rem;
+  }
+
+  .section-title {
+    font-family: var(--serif);
+    font-size: clamp(1.75rem, 3vw, 2.4rem);
+    color: var(--navy);
+    line-height: 1.2;
+    margin-bottom: 1rem;
+  }
+
+  .section-intro {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    max-width: 640px;
+    margin-bottom: 3rem;
+  }
+
+  /* HIGHLIGHTS */
+  #highlights { background: var(--offwhite); }
+
+  .highlights-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5px;
+    background: var(--border);
+    border: 1px solid var(--border);
+  }
+
+  .highlight-card {
+    background: var(--white);
+    padding: 2rem;
+  }
+
+  .highlight-metric {
+    font-family: var(--serif);
+    font-size: 2.5rem;
+    color: var(--navy);
+    line-height: 1;
+    margin-bottom: 0.5rem;
+  }
+
+  .highlight-metric span {
+    color: var(--accent);
+  }
+
+  .highlight-title {
+    font-size: 0.85rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    color: var(--text-primary);
+    margin-bottom: 0.5rem;
+  }
+
+  .highlight-desc {
+    font-size: 0.875rem;
+    color: var(--text-muted);
+    line-height: 1.6;
+  }
+
+  /* CHANNELS */
+  .channels-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    margin-bottom: 3rem;
+  }
+
+  .channel-item {
+    background: var(--white);
+    padding: 1.5rem;
+  }
+
+  .channel-name {
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--navy);
+    margin-bottom: 0.5rem;
+  }
+
+  .channel-tools {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    line-height: 1.5;
+  }
+
+  .proficiency-bar {
+    height: 2px;
+    background: var(--border);
+    margin-top: 0.75rem;
+    position: relative;
+  }
+
+  .proficiency-fill {
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    background: var(--accent);
+  }
+
+  /* HOW I WORK */
+  #how-i-work { background: var(--navy); }
+  #how-i-work .section-label { color: var(--accent-light); }
+  #how-i-work .section-title { color: var(--white); }
+  #how-i-work .section-intro { color: rgba(255,255,255,0.65); }
+
+  .principles-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2px;
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.1);
+  }
+
+  .principle {
+    background: var(--navy);
+    padding: 2rem 2.25rem;
+    border: none;
+  }
+
+  .principle-number {
+    font-family: var(--serif);
+    font-size: 2.5rem;
+    color: rgba(200, 169, 110, 0.3);
+    line-height: 1;
+    margin-bottom: 1rem;
+  }
+
+  .principle-title {
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 0.5rem;
+  }
+
+  .principle-body {
+    font-size: 0.9rem;
+    color: rgba(255,255,255,0.6);
+    line-height: 1.65;
+  }
+
+  /* EXPERIENCE */
+  .timeline {
+    position: relative;
+  }
+
+  .timeline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0; bottom: 0;
+    width: 1px;
+    background: var(--border);
+  }
+
+  .timeline-entry {
+    padding-left: 2.5rem;
+    padding-bottom: 3rem;
+    position: relative;
+  }
+
+  .timeline-entry::before {
+    content: '';
+    position: absolute;
+    left: -4px;
+    top: 6px;
+    width: 9px; height: 9px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  .timeline-company {
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.25rem;
+  }
+
+  .timeline-title {
+    font-family: var(--serif);
+    font-size: 1.3rem;
+    color: var(--navy);
+    margin-bottom: 0.25rem;
+  }
+
+  .timeline-dates {
+    font-size: 0.8rem;
+    color: var(--text-muted);
+    margin-bottom: 1rem;
+  }
+
+  .timeline-body {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    line-height: 1.7;
+    max-width: 660px;
+  }
+
+  .timeline-body p { margin-bottom: 0.65rem; }
+
+  /* CONTACT */
+  #contact { background: var(--offwhite); }
+
+  .contact-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4rem;
+    align-items: start;
+  }
+
+  .contact-copy .section-title { margin-bottom: 1rem; }
+
+  .contact-copy p {
+    font-size: 1rem;
+    color: var(--text-secondary);
+    margin-bottom: 1.5rem;
+  }
+
+  .contact-links {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .contact-link {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 0.9rem;
+    color: var(--navy);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s;
+  }
+
+  .contact-link:hover { color: var(--accent); }
+
+  .contact-link-icon {
+    width: 36px; height: 36px;
+    background: var(--white);
+    border: 1px solid var(--border);
+    display: flex; align-items: center; justify-content: center;
+    font-size: 14px;
+    flex-shrink: 0;
+  }
+
+  .contact-right {
+    background: var(--white);
+    border: 1px solid var(--border);
+    padding: 2.5rem;
+  }
+
+  .contact-right h3 {
+    font-family: var(--serif);
+    font-size: 1.2rem;
+    color: var(--navy);
+    margin-bottom: 1.5rem;
+  }
+
+  .role-list {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 2rem;
+  }
+
+  .role-list li {
+    font-size: 0.875rem;
+    color: var(--text-secondary);
+    padding-left: 1rem;
+    position: relative;
+  }
+
+  .role-list li::before {
+    content: '';
+    position: absolute;
+    left: 0; top: 50%;
+    transform: translateY(-50%);
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: var(--accent);
+  }
+
+  /* FOOTER */
+  footer {
+    background: var(--navy);
+    padding: 2rem;
+    text-align: center;
+  }
+
+  footer p {
+    font-size: 0.8rem;
+    color: rgba(255,255,255,0.35);
+    letter-spacing: 0.04em;
+  }
+
+  /* ANIMATIONS */
+  .fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.6s ease, transform 0.6s ease;
+  }
+
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  /* RESPONSIVE */
+  @media (max-width: 768px) {
+    .hero {
+      grid-template-columns: 1fr;
+      padding: 100px 1.5rem 60px;
+      gap: 3rem;
+    }
+
+    .highlights-grid { grid-template-columns: 1fr; }
+    .principles-grid { grid-template-columns: 1fr; }
+    .contact-inner { grid-template-columns: 1fr; }
+    .channels-grid { grid-template-columns: repeat(2, 1fr); }
+
+    .nav-links { display: none; }
+
+    section { padding: 60px 1.5rem; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <span class="nav-name">Bethany Kaufman</span>
+  <ul class="nav-links">
+    <li><a href="#highlights">Results</a></li>
+    <li><a href="#channels">Expertise</a></li>
+    <li><a href="#how-i-work">Approach</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section style="padding: 0;">
+  <div class="hero">
+    <div>
+      <p class="hero-eyebrow">Denver, CO &mdash; Digital Marketing Leader</p>
+      <h1>Senior Digital Marketing Leader for <em>National Consumer Brands</em></h1>
+      <p class="hero-bio">
+        13+ years driving acquisition, retention, and brand growth in-house across paid media, SEO, CRM, and emerging AI search channels. I own strategy end-to-end and hold teams and agencies accountable to results.
+      </p>
+      <div class="hero-cta">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="https://www.linkedin.com/in/bethany-kaufman-66434352" target="_blank" class="btn-secondary">LinkedIn</a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="stat-card">
+        <div class="stat-number">13<span style="font-size:1.2rem; color: var(--accent);">+</span></div>
+        <div class="stat-label">Years In-House B2C</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">600<span style="font-size:1.2rem; color: var(--accent);">+</span></div>
+        <div class="stat-label">Locations Managed</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">+143<span style="font-size:1.2rem; color: var(--accent);">%</span></div>
+        <div class="stat-label">Customer Acquisition Growth</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">+101<span style="font-size:1.2rem; color: var(--accent);">%</span></div>
+        <div class="stat-label">Impression Growth</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HIGHLIGHTS -->
+<section id="highlights">
+  <div class="container">
+    <p class="section-label">Career Highlights</p>
+    <h2 class="section-title">Outcomes that move the business</h2>
+    <p class="section-intro">Selected results across paid media, organic growth, lifecycle, and emerging channels — all from in-house, client-side roles.</p>
+
+    <div class="highlights-grid fade-in">
+      <div class="highlight-card">
+        <div class="highlight-metric">+143<span>%</span></div>
+        <div class="highlight-title">Customer Acquisition Growth</div>
+        <div class="highlight-desc">Sustained multi-year growth in customer acquisition signals through integrated paid media strategy across 600+ national locations.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">7<span>%</span></div>
+        <div class="highlight-title">Dark Testing — Revenue Validation</div>
+        <div class="highlight-desc">Confirmed 7% same-store traffic decline when media paused via dark testing methodology, directly validating paid media's revenue contribution.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">+22<span>%</span></div>
+        <div class="highlight-title">Impression Share Improvement</div>
+        <div class="highlight-desc">Gained competitive ground through strategic media allocation and channel mix optimization, expanding share of voice in key markets.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">+61<span>%</span></div>
+        <div class="highlight-title">Keyword Ranking Improvement</div>
+        <div class="highlight-desc">Enterprise SEO strategy across 20+ brand websites delivered substantial organic ranking gains over 18 months.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">+24<span>%</span></div>
+        <div class="highlight-title">Organic Traffic Growth</div>
+        <div class="highlight-desc">Drove sustained traffic growth through content strategy, technical SEO, and an AI-native GEO framework built ahead of the market.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">250K<span>+</span></div>
+        <div class="highlight-title">Loyalty Program Signups in Q1</div>
+        <div class="highlight-desc">Led launch strategy and execution for a national consumer loyalty program — from positioning and CRM architecture to campaign rollout.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">26<span>%+</span></div>
+        <div class="highlight-title">Email Open Rate</div>
+        <div class="highlight-desc">More than doubled email open rates from 12% to 26%+ in under 12 months through audience segmentation and creative strategy overhaul.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">90<span>%</span></div>
+        <div class="highlight-title">Brand Awareness — Year One</div>
+        <div class="highlight-desc">Achieved 90% brand awareness among target client base in year one for an early-stage startup through integrated acquisition and education programs.</div>
+      </div>
+      <div class="highlight-card">
+        <div class="highlight-metric">+101<span>%</span></div>
+        <div class="highlight-title">Impression Growth</div>
+        <div class="highlight-desc">More than doubled total impressions across paid channels through disciplined budget allocation, channel diversification, and audience strategy.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CHANNELS -->
+<section id="channels">
+  <div class="container">
+    <p class="section-label">Channel Expertise</p>
+    <h2 class="section-title">Deep fluency across the full stack</h2>
+    <p class="section-intro">I own strategy across channels — not just manage them. That includes setting KPIs, directing agency partners, and building the frameworks that connect spend to outcomes.</p>
+
+    <div class="channels-grid fade-in">
+      <div class="channel-item">
+        <div class="channel-name">Paid Search</div>
+        <div class="channel-tools">Google Ads, keyword strategy, bidding, landing page alignment</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 95%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">Paid Social</div>
+        <div class="channel-tools">Meta, TikTok, YouTube — full-funnel acquisition and retargeting</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 95%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">Programmatic & CTV</div>
+        <div class="channel-tools">Display, video, connected TV, audio — testing and scaling emerging formats</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 85%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">SEO / GEO / AIO</div>
+        <div class="channel-tools">Technical SEO, content strategy, generative engine optimization, AI-influenced search</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 90%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">CRM & Lifecycle</div>
+        <div class="channel-tools">Salesforce, segmentation, journey design, email/SMS, re-engagement</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 90%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">Direct Mail</div>
+        <div class="channel-tools">Acquisition vs. retention targeting, offer strategy, new mover programs</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 80%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">Organic Social</div>
+        <div class="channel-tools">Instagram, TikTok, Facebook — content strategy, brand voice, creator integration</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 85%"></div></div>
+      </div>
+      <div class="channel-item">
+        <div class="channel-name">Analytics & Measurement</div>
+        <div class="channel-tools">GA4, Power BI, Looker, attribution modeling, incrementality testing</div>
+        <div class="proficiency-bar"><div class="proficiency-fill" style="width: 90%"></div></div>
+      </div>
+    </div>
+
+    <div style="margin-top: 3rem;">
+      <p class="section-label">Platforms & Tools</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem;">
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Google Ads</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Meta Business Suite</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Salesforce CRM</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Google Analytics 4</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Power BI</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Looker</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Yext</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">TikTok Ads</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Programmatic DSPs</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">CTV Platforms</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">ChatGPT / Claude / Gemini</span>
+        <span style="font-size: 0.8rem; padding: 0.35rem 0.9rem; border: 1px solid var(--border); color: var(--text-secondary);">Semrush / Ahrefs</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- HOW I WORK -->
+<section id="how-i-work">
+  <div class="container">
+    <p class="section-label">How I Work</p>
+    <h2 class="section-title">Strategy first. Accountability always.</h2>
+    <p class="section-intro">A few things that define how I lead — and what distinguishes my approach from the norm at director level.</p>
+
+    <div class="principles-grid fade-in">
+      <div class="principle">
+        <div class="principle-number">01</div>
+        <div class="principle-title">I own the outcome, not the activity</div>
+        <div class="principle-body">Channel tactics are a means to an end. I stay anchored to business outcomes — traffic, acquisition, retention, revenue — and adjust channels and investment accordingly. The media plan serves the goal, not the other way around.</div>
+      </div>
+      <div class="principle">
+        <div class="principle-number">02</div>
+        <div class="principle-title">I prove what's working before scaling it</div>
+        <div class="principle-body">I've built dark testing and incrementality methodology into how I run media — not just A/B tests, but real proof that spend drives revenue. That kind of rigor builds internal credibility and protects budgets when business conditions shift.</div>
+      </div>
+      <div class="principle">
+        <div class="principle-number">03</div>
+        <div class="principle-title">I hold agencies to a real standard</div>
+        <div class="principle-body">I've run full RFP processes, rebuilt agency relationships, and restructured scopes when work wasn't meeting the mark. I don't manage agencies passively — I set the bar, provide the brief, and measure what matters.</div>
+      </div>
+      <div class="principle">
+        <div class="principle-number">04</div>
+        <div class="principle-title">I stay ahead of where search is going</div>
+        <div class="principle-body">Most marketing teams are still catching up to GEO and AI-influenced search. I've already built enterprise-level strategy for both — because brand discoverability in AI results is the next battleground, and waiting is not a strategy.</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <div class="container">
+    <p class="section-label">Experience</p>
+    <h2 class="section-title">13+ years, client-side</h2>
+    <p class="section-intro">Every role has been in-house. I know what it means to own a budget, build a team, and be accountable to the business — not just the campaign.</p>
+
+    <div class="timeline fade-in">
+      <div class="timeline-entry">
+        <div class="timeline-company">FullSpeed Automotive</div>
+        <div class="timeline-title">Director, Digital Marketing</div>
+        <div class="timeline-dates">Aug 2023 – Present &nbsp;&middot;&nbsp; Denver, CO</div>
+        <div class="timeline-body">
+          <p>Own integrated digital marketing strategy for a national multi-brand automotive services company across 600+ corporate and franchise locations. Responsible for paid media, SEO, CRM, organic social, influencer, and AI search strategy.</p>
+          <p>Built and scaled a dark testing methodology that validated direct media-to-revenue impact — confirmed a 7% same-store traffic decline when media paused. Delivered +143% growth in customer acquisition signals, +101% impression growth, and +22% impression share improvement over the program period.</p>
+          <p>Spearheaded enterprise generative engine optimization (GEO) and AI-influenced search (AIO) strategy — among the first in the sector to build a structured approach to brand visibility in AI-generated search results.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <div class="timeline-company">FullSpeed Automotive</div>
+        <div class="timeline-title">Marketing Manager, CRM &amp; Digital</div>
+        <div class="timeline-dates">Aug 2021 – Aug 2023 &nbsp;&middot;&nbsp; Denver, CO</div>
+        <div class="timeline-body">
+          <p>Led CRM lifecycle strategy, paid media execution, and digital channel ownership across the national brand portfolio. Built the segmentation, journey logic, and campaign frameworks that underpinned the CRM program.</p>
+          <p>Directed SEO strategy across 20+ brand websites, delivering +61% keyword ranking improvement and +24% organic traffic growth over 18 months.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <div class="timeline-company">Local Hero</div>
+        <div class="timeline-title">Marketing Manager</div>
+        <div class="timeline-dates">May 2020 – Aug 2021</div>
+        <div class="timeline-body">
+          <p>Built the marketing function from scratch for an early-stage startup serving franchise brands and local operators. Developed brand identity, positioning, and go-to-market strategy in a complex B2B2C environment.</p>
+          <p>Achieved 90% brand awareness among the target client base in year one through integrated acquisition programs across paid social, display, search, and email.</p>
+        </div>
+      </div>
+
+      <div class="timeline-entry">
+        <div class="timeline-company">Boston Market Corporation</div>
+        <div class="timeline-title">Marketing Manager, Digital &amp; PR &nbsp;/ Associate Marketing Manager, Digital &amp; PR &nbsp;/ Digital Marketing Specialist</div>
+        <div class="timeline-dates">Jun 2014 – Mar 2020 &nbsp;&middot;&nbsp; Denver, CO</div>
+        <div class="timeline-body">
+          <p>Spent six years growing from specialist to manager across digital marketing, CRM, PR, and brand campaigns for a national quick-service restaurant brand. Owned the annual marketing calendar and led integrated campaign execution across paid, owned, and earned channels.</p>
+          <p>Led launch of the Boston Market loyalty program — generating 250,000+ signups in Q1. Drove email open rates from 12% to 26%+ in under 12 months through segmentation, targeting, and creative overhaul. Led DTC meal kit program launch, establishing a new direct-to-consumer revenue stream.</p>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 3.5rem; border-top: 1px solid var(--border); padding-top: 3rem;">
+      <p class="section-label">Education</p>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.5rem; margin-top: 1.5rem;">
+        <div style="background: var(--offwhite); border: 1px solid var(--border); padding: 1.75rem;">
+          <div style="font-size: 0.7rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">Graduate</div>
+          <div style="font-family: var(--serif); font-size: 1.2rem; color: var(--navy); margin-bottom: 0.25rem;">Master of Business Administration</div>
+          <div style="font-size: 0.875rem; color: var(--text-secondary);">University of Denver &mdash; Daniels College of Business</div>
+        </div>
+        <div style="background: var(--offwhite); border: 1px solid var(--border); padding: 1.75rem;">
+          <div style="font-size: 0.7rem; font-weight: 500; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem;">Undergraduate</div>
+          <div style="font-family: var(--serif); font-size: 1.2rem; color: var(--navy); margin-bottom: 0.25rem;">Bachelor of Science</div>
+          <div style="font-size: 0.875rem; color: var(--text-secondary);">Minnesota State University Moorhead</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+  <div class="container">
+    <div class="contact-inner">
+      <div class="contact-copy">
+        <p class="section-label">Contact</p>
+        <h2 class="section-title">Let's talk</h2>
+        <p>Always happy to connect with recruiters and marketing leaders.</p>
+        <p>Reach out directly via email or connect on LinkedIn.</p>
+        <div class="contact-links">
+          <a href="mailto:kaufman.bethany@gmail.com" class="contact-link">
+            <span class="contact-link-icon">✉</span>
+            kaufman.bethany@gmail.com
+          </a>
+          <a href="https://www.linkedin.com/in/bethany-kaufman-66434352" target="_blank" class="contact-link">
+            <span class="contact-link-icon">in</span>
+            linkedin.com/in/bethany-kaufman-66434352
+          </a>
+          <a href="tel:5078283838" class="contact-link">
+            <span class="contact-link-icon">☎</span>
+            507-828-3838
+          </a>
+        </div>
+      </div>
+      <div class="contact-right">
+        <h3>Industries &amp; environments</h3>
+        <ul class="role-list">
+          <li>National consumer brands and multi-location retail</li>
+          <li>Franchise and corporate environments</li>
+          <li>Restaurant, QSR, and food &amp; beverage</li>
+          <li>Automotive services and aftermarket</li>
+          <li>DTC and subscription-based consumer products</li>
+          <li>Growth-stage startups</li>
+          <li>Agency and consulting environments</li>
+        </ul>
+        <p style="font-size: 0.85rem; color: var(--text-muted); line-height: 1.6;">
+          Industry-agnostic. What matters is that digital marketing has real investment, real ownership, and a direct line to business outcomes.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Bethany Kaufman &mdash; Denver, CO &mdash; Director of Digital Marketing</p>
+</footer>
+
+<script>
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+      }
+    });
+  }, { threshold: 0.1 });
+
+  document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+
+</body>
+</html>
